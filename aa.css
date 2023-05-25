@@ -1,0 +1,67 @@
+
+div#Sthela {
+    background-image: url(WhatsApp\ Image\ 2023-04-13\ at\ 02.03.57.jpeg);
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 8px;
+    background-color: white;
+    width: 90px;
+    height: 100px;
+    transition: transform 0.3s ease;
+}
+
+p {
+    color: rgb(105, 105, 105);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 300%);
+}
+div#perfis {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 350%);
+    padding: 5px;
+    border: 1px solid rgb(105, 105, 105);
+    background-color: black;
+    color: rgb(105, 105, 105);
+    height: 20px;
+    width: 150px;
+    text-align: center;
+    margin: 5px white;
+}
+body {
+    background-color: rgb(17, 17, 17);
+}
+.animate__fadeInDown {
+    -webkit-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+}
+
+.animate__animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-duration: var(--animate-duration);
+    animation-duration: var(--animate-duration);
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+h1 {
+    text-align: center;
+    position: relative;
+    top: 180px;
+    color: white;
+}
+.logo {
+    width: 110px;
+    height: 30px;
+    margin: 15px 60px;
+    background: url();
+    background-size: cover;
+}
